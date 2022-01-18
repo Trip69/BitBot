@@ -1,0 +1,109 @@
+Override in effect
+Bitcoin Site Survey By Trip v1.0
+Checking 2 sites.
+08:41 Error connecting to bitfinex.
+bitbot\BitBotError: Inserted row not found with select
+SELECT * FROM market WHERE exchange_id=2 AND pairs_id=344 AND active=1 AND margin=0 AND min_order='0.001' AND max_order='100000.0'
+ in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:131
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(439): bitbot\bit_db::insert_one_record('market', Array, Array, true)
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+Checking 3 sites.
+08:41 Error connecting to bitfinex.
+bitbot\BitBotError: get_one_result SQL Syntax Error 
+SELECT idx,active,margin,min_order,max_order FROM market WHERE exchange_id=2 AND pairs_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:63
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(427): bitbot\bit_db::get_one_result('SELECT idx,acti...')
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+Checking 3 sites.
+08:41 Error connecting to bitfinex.
+bitbot\BitBotError: get_one_result SQL Syntax Error 
+SELECT idx,active,margin,min_order,max_order FROM market WHERE exchange_id=2 AND pairs_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:63
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(427): bitbot\bit_db::get_one_result('SELECT idx,acti...')
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+BitBot Recorder v0.2 By Trip. host:Desktop
+BitBot Analyser v0.2 By Trip. host:Desktop
+BitBot Trader v0.1 by Trip :). host:Desktop
+Recording Started
+Connecting to bitfinex
+Connected to bitfinex. Connecting 150 channels
+bitfinex error symbol: invalid 10300
+bitfinex pair invalid: CFIUSD
+*** scribe debug "write_data" code enabled
+bitfinex subscribed to 149 channels
+Connecting to bitstamp
+Connected to bitstamp Connecting 9 channels
+bitstamp subscribed to 9 channels
+Connecting to bitfinex
+Connected to bitfinex. Connecting 0 channels
+bitfinex subscribed to 0 channels
+bitfinex authentication OK
+Connecting to bitfinex
+Connected to bitfinex. Connecting 0 channels
+bitfinex subscribed to 0 channels
+bitfinex authentication OK
+*** analyser debug "run" code enabled
+*** trader debug "run" code enabled
+08:42 bitfinex account 1. Wallet update  XRP 284.11251507/? ETH 0.40784452/? ETH 0.00576704/? XRP 9.3E-7/? USD 74.6421286/? EOS 1.479E-5/? OMG 1.17524477/? EOS 33.99767/?
+08:42 bitfinex account 1. 1 orders
+08:42 bitfinex account 1 EXCHANGE TRAILING STOP -30 EOSUSD $2.459 ACTIVE id:21735093248
+08:42 bitfinex account 2. Wallet update  USD 2.63446979/?
+08:42 bitfinex account 2. 0 orders
+08:42 bitfinex account 1. Wallet update  XRP 284.11251507/284.11251507
+08:42 bitfinex account 1. Wallet update  ETH 0.40784452/0.40784452
+08:42 bitfinex account 2. Wallet update  USD 2.63446979/2.63446979
+08:42 bitfinex account 1. Wallet update  EOS 1.479E-5/1.479E-5
+08:42 BC - L:3648.4 Vel:- Vol:-0.01
+Override in effect
+Bitcoin Site Survey By Trip v1.0
+Checking 2 sites.
+08:42 Error connecting to bitfinex.
+bitbot\BitBotError: Inserted row not found with select
+SELECT * FROM market WHERE exchange_id=2 AND pairs_id=345 AND active=1 AND margin=0 AND min_order='0.001' AND max_order='100000.0'
+ in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:131
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(439): bitbot\bit_db::insert_one_record('market', Array, Array, true)
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+Checking 3 sites.
+08:42 Error connecting to bitfinex.
+bitbot\BitBotError: get_one_result SQL Syntax Error 
+SELECT idx,active,margin,min_order,max_order FROM market WHERE exchange_id=2 AND pairs_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:63
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(427): bitbot\bit_db::get_one_result('SELECT idx,acti...')
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+Checking 3 sites.
+08:42 Error connecting to bitfinex.
+bitbot\BitBotError: get_one_result SQL Syntax Error 
+SELECT idx,active,margin,min_order,max_order FROM market WHERE exchange_id=2 AND pairs_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php:63
+Stack trace:
+#0 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\db.php(427): bitbot\bit_db::get_one_result('SELECT idx,acti...')
+#1 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(66): bitbot\bit_db_key_lookup->getset_market_key('bitfinex', Array)
+#2 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\inc\site_survey_obj.php(50): bitbot\site_survey->check('bitfinex')
+#3 C:\Users\Chris\Documents\UniServerZ\somedodgy\bitbot\bit_bot.php(35): bitbot\site_survey->check_all()
+#4 {main}
+BitBot Recorder v0.2 By Trip. host:Desktop
+BitBot Analyser v0.2 By Trip. host:Desktop
+BitBot Trader v0.1 by Trip :). host:Desktop
+Recording Started
+Connecting to bitfinex
+Connected to bitfinex. Connecting 151 channels

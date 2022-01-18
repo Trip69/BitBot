@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Trip69/websocket-php-async"
+        }
+    ],
+    "require": {
+		"ccxt/ccxt": "1.*",
+		"textalk/websocket": "dev-master",
+		"Trip69/pusher-client-php": "dev-master"
+    }
+}

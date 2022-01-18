@@ -1,0 +1,51 @@
+[23-Dec-2018 12:03:56 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:03:56 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:04:00 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:04:00 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:04:00 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:09:11 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:09:11 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:20:58 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:20:58 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 12:53:50 Europe/Athens] PHP Warning:  Illegal string offset 'config' in /home/boy/public_html/bitbot/inc/db.php on line 1535
+[23-Dec-2018 12:53:50 Europe/Athens] PHP Warning:  Illegal string offset 'idx' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 12:53:50 Europe/Athens] PHP Warning:  Illegal string offset 'session' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 12:54:10 Europe/Athens] PHP Warning:  Illegal string offset 'config' in /home/boy/public_html/bitbot/inc/db.php on line 1535
+[23-Dec-2018 12:54:10 Europe/Athens] PHP Warning:  Illegal string offset 'idx' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 12:54:10 Europe/Athens] PHP Warning:  Illegal string offset 'session' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 12:56:36 Europe/Athens] PHP Warning:  Illegal string offset 'config' in /home/boy/public_html/bitbot/inc/db.php on line 1535
+[23-Dec-2018 12:56:36 Europe/Athens] PHP Warning:  Illegal string offset 'idx' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 12:56:36 Europe/Athens] PHP Warning:  Illegal string offset 'session' in /home/boy/public_html/bitbot/inc/db.php on line 1537
+[23-Dec-2018 13:03:46 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:03:46 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:16:09 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:16:09 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:16:24 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:16:24 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:40:01 Europe/Athens] PHP Fatal error:  Uncaught bitbot\BitBotError: get_one_result SQL Syntax Error 
+SELECT price,amount,time FROM trade WHERE market_id= ORDER BY time DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY time DESC LIMIT 1' at line 1 in /home/boy/public_html/bitbot/inc/db.php:63
+Stack trace:
+#0 /home/boy/public_html/bitbot/inc/db.php(687): bitbot\bit_db::get_one_result('SELECT price,am...')
+#1 /home/boy/public_html/bitbot/inc/db.php(834): bitbot\bit_db_reader->get_trade(NULL, 'WHERE market_id...', 'ORDER BY time D...', 1)
+#2 /home/boy/public_html/bitbot/inc/analyser_obj.php(77): bitbot\bit_db_reader->get_trade_volume_last(NULL, 30)
+#3 /home/boy/public_html/bitbot/bit_bot.php(52): bitbot\analyser->__construct(Array)
+#4 {main}
+  thrown in /home/boy/public_html/bitbot/inc/db.php on line 63
+[23-Dec-2018 13:41:36 Europe/Athens] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/boy/public_html/bitbot/inc/recorder_obj.php on line 837
+[23-Dec-2018 13:57:48 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:57:48 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 13:57:48 Europe/Athens] PHP Fatal error:  Uncaught WebSocket\ConnectionException: Could only write 0 out of 76 bytes. in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php:243
+Stack trace:
+#0 /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php(107): WebSocket\Base->write('\x81\xC6c\xCD\xFF\x96\x18\xEF\x9A\xE0\x06\xA3\x8B\xB4Y...')
+#1 /home/boy/public_html/bitbot/inc/vendor/trip69/pusher-client-php/src/Client.php(102): WebSocket\Base->send('{"event":"pushe...')
+#2 /home/boy/public_html/bitbot/inc/recorder_obj.php(768): trip69\Pusher\Client->unsubscribe('live_trades_ltc...')
+#3 /home/boy/public_html/bitbot/inc/recorder_obj.php(1362): bitbot\bitbot_bitstamp->disconnect()
+#4 /home/boy/public_html/bitbot/inc/recorder_obj.php(1071): bitbot\scribe->check_connection()
+#5 [internal function]: bitbot\scribe->run()
+#6 /home/boy/public_html/bitbot/inc/interfaces.php(293): call_user_func(Array)
+#7 /home/boy/public_html/bitbot/bit_bot.php(69): bitbot\pseudo_thread->run()
+#8 {main}
+  thrown in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 243
+[23-Dec-2018 14:52:01 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240
+[23-Dec-2018 14:52:01 Europe/Athens] PHP Warning:  fwrite(): SSL: Broken pipe in /home/boy/public_html/bitbot/inc/vendor/textalk/websocket/lib/Base.php on line 240

@@ -1,0 +1,412 @@
+[
+    {
+        "name": "ccxt/ccxt",
+        "version": "1.16.89",
+        "version_normalized": "1.16.89.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ccxt/ccxt.git",
+            "reference": "3fbd4b27ceb9f5110142abf9ef88406f71cf4bc8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ccxt/ccxt/zipball/3fbd4b27ceb9f5110142abf9ef88406f71cf4bc8",
+            "reference": "3fbd4b27ceb9f5110142abf9ef88406f71cf4bc8",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-iconv": "*",
+            "ext-pcre": "*",
+            "php": ">=5.3.0",
+            "symfony/polyfill-mbstring": "^1.7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6"
+        },
+        "time": "2018-07-23T15:08:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ccxt\\": "php/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Igor Kroitor",
+                "email": "igor.kroitor@gmail.com",
+                "homepage": "https://github.com/kroitor",
+                "role": "Developer"
+            },
+            {
+                "name": "Vitaly Gordon",
+                "email": "rocket.mind@gmail.com",
+                "homepage": "https://github.com/xpl",
+                "role": "Developer"
+            }
+        ],
+        "description": "A JavaScript / Python / PHP cryptocurrency trading library with support for more than 90 bitcoin/altcoin exchanges",
+        "homepage": "https://github.com/ccxt/ccxt",
+        "keywords": [
+            "1BTCXE",
+            "1Broker",
+            "ACX",
+            "ANX",
+            "ANXPro",
+            "BL3P",
+            "BTC Markets",
+            "BTC Trade UA",
+            "BTCC",
+            "BTCChina",
+            "BTCExchange",
+            "BTCTrader",
+            "BTCTurk",
+            "BTCX",
+            "BX.in.th",
+            "Bit2C",
+            "BitBay",
+            "BitBays",
+            "BitMEX",
+            "BitMarket",
+            "Bitcoin.co.id",
+            "Bleutrade",
+            "BlinkTrade",
+            "BtcBox",
+            "Bter.com",
+            "C-CEX",
+            "CEX.IO",
+            "CHBTC",
+            "CNY",
+            "ChileBit",
+            "CoinMate",
+            "CoinSpot",
+            "Coinsecure",
+            "Crypto Capital",
+            "Cryptopia",
+            "DOGE",
+            "EUR",
+            "EXMO",
+            "FYB-SE",
+            "FYB-SG",
+            "FoxBit",
+            "Gatecoin",
+            "Gemini",
+            "Huobi",
+            "HuobiPRO",
+            "LakeBTC",
+            "Liqui",
+            "LiveCoin",
+            "OKCoin",
+            "OKCoin.cn",
+            "OKCoin.com",
+            "OKEX",
+            "Paymium",
+            "Poloniex",
+            "QUOINE",
+            "Qryptos",
+            "QuadrigaCX",
+            "Southxchange",
+            "SurBitcoin",
+            "TheRockTrading",
+            "Tidex",
+            "USD",
+            "UrduBit",
+            "VBTC",
+            "Vaultoro",
+            "VirWoX",
+            "Wex",
+            "YoBit",
+            "Zaif",
+            "acx.io",
+            "algorithmic",
+            "algotrading",
+            "altcoin",
+            "altcoins",
+            "api",
+            "arbitrage",
+            "backtest",
+            "backtesting",
+            "binance",
+            "binance.com",
+            "bit2c.co.il",
+            "bitcoin",
+            "bitcoincoid",
+            "bitfinex",
+            "bitflyer",
+            "bitflyer.jp",
+            "bithumb",
+            "bithumb.com",
+            "bitlish",
+            "bitso",
+            "bitstamp",
+            "bittrex",
+            "bleutrade.com",
+            "bot",
+            "btc",
+            "btc-e",
+            "btc-trade.com.ua",
+            "btc-x",
+            "btcbox.co.jp",
+            "btce",
+            "btcexchange.ph",
+            "btcmarkets",
+            "btcmarkets.net",
+            "btctrader.com",
+            "btcturk.com",
+            "bter",
+            "ccex",
+            "cex",
+            "chilebit.net",
+            "coin",
+            "coincheck",
+            "coingi",
+            "coingi.com",
+            "coinmarketcap",
+            "coins",
+            "coinspot.com.au",
+            "crypto",
+            "crypto currency",
+            "crypto market",
+            "cryptocapital.co",
+            "cryptocurrency",
+            "cryptopia.co.nz",
+            "currencies",
+            "currency",
+            "darkcoin",
+            "dash",
+            "digital currency",
+            "dogecoin",
+            "dsx",
+            "dsx.uk",
+            "e-commerce",
+            "etc",
+            "eth",
+            "ether",
+            "ethereum",
+            "exchange",
+            "exchanges",
+            "flowBTC",
+            "flowbtc.com",
+            "foxbit.exchange",
+            "framework",
+            "gdax",
+            "hitbtc",
+            "huobi.pro",
+            "independent reserve",
+            "independentreserve.com",
+            "invest",
+            "investing",
+            "investor",
+            "itBit",
+            "jubi.com",
+            "kraken",
+            "lakebtc.com",
+            "library",
+            "light",
+            "liqui.io",
+            "litecoin",
+            "ltc",
+            "luno",
+            "market",
+            "market data",
+            "markets",
+            "mercado",
+            "mercadobitcoin",
+            "mercadobitcoin.br",
+            "merchandise",
+            "merchant",
+            "minimal",
+            "mixcoins",
+            "mixcoins.com",
+            "nova",
+            "novaexchange",
+            "novaexchange.com",
+            "okex.com",
+            "order",
+            "order book",
+            "orderbook",
+            "price",
+            "price data",
+            "pricefeed",
+            "private",
+            "public",
+            "ripple",
+            "strategy",
+            "surbitcoin.com",
+            "tidex.com",
+            "toolkit",
+            "trade",
+            "trader",
+            "trading",
+            "urdubit.com",
+            "vbtc.exchange",
+            "vbtc.vn",
+            "volume",
+            "wex.nz",
+            "xBTCe",
+            "xbt",
+            "xbtce.com",
+            "xrp",
+            "yobit.net",
+            "yunbi",
+            "zec",
+            "zerocoin"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
+            "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2018-08-06T14:22:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "textalk/websocket",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Trip69/websocket-php-async.git",
+            "reference": "38b187d2f98b9de0ed4978bbea6723fcd5f22a75"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Trip69/websocket-php-async/zipball/38b187d2f98b9de0ed4978bbea6723fcd5f22a75",
+            "reference": "38b187d2f98b9de0ed4978bbea6723fcd5f22a75",
+            "shasum": ""
+        },
+        "require-dev": {
+            "cboden/ratchet": "0.3.*",
+            "phpunit/phpunit": "4.1.*",
+            "phpunit/phpunit-selenium": "1.3.3",
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "time": "2018-09-26T12:46:29+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WebSocket\\": "lib"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "WebSocket\\Tests\\": "tests"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fredrik Liljegren",
+                "email": "fredrik.liljegren@textalk.se"
+            },
+            {
+                "name": "Trip",
+                "email": "none@nowhere.com"
+            }
+        ],
+        "description": "WebSocket client and server",
+        "support": {
+            "source": "https://github.com/Trip69/websocket-php-async/tree/master"
+        }
+    },
+    {
+        "name": "trip69/pusher-client-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Trip69/pusher-client-php.git",
+            "reference": "283dd838f948025762a0c8dd21ab30126d32cd54"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Trip69/pusher-client-php/zipball/283dd838f948025762a0c8dd21ab30126d32cd54",
+            "reference": "283dd838f948025762a0c8dd21ab30126d32cd54",
+            "shasum": ""
+        },
+        "require-dev": {
+            "textalk/websocket": "dev-master"
+        },
+        "time": "2018-09-27T12:59:17+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "trip69\\Pusher\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Trip",
+                "email": "none@nowhere.com"
+            }
+        ],
+        "description": "Pusher Client in php"
+    }
+]

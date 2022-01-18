@@ -1,0 +1,35 @@
+th, td {
+    text-align: center;
+}
+
+td.down
+{
+    background-color: lightsalmon;
+}
+
+td.down_mj
+{
+    background-color: #9c5a4e;
+}
+
+
+td.up
+{
+    background-color: lightgreen;
+}
+
+td.up_mj
+{
+    background-color: darkgreen;
+}
+
+
+td.bold
+{
+    font-weight: bold;
+}
+
+td.margin
+{
+    background-color: gold;
+}
