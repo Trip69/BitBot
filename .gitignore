@@ -1,0 +1,6 @@
+.idea/
+examples/
+inc/db_account.php
+inc/vendor/ccxt/ccxt/python/
+inc/vendor/ccxt/ccxt/js/
+
