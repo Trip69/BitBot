@@ -4,3 +4,5 @@ inc/db_account.php
 inc/vendor/ccxt/ccxt/python/
 inc/vendor/ccxt/ccxt/js/
 
+inc/vendor/textalk/websocket/
+inc/vendor/trip69/pusher-client-php/
