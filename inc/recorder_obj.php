@@ -202,7 +202,7 @@ class bitbot_bitfinex implements bitbot_recorder
     const websocket_timeout=10; //seconds
     const ws_hb_timeout = 60; //seconds
     const ws_subsciption_pause=1;//seconds;
-    const ws_subsciption_pause_after=3;//number of subscribtions to bulk send
+    const ws_subsciption_pause_after=3;//number of subscriptions to bulk send
     const ws_timeouts = 5;
 
     protected $ws=null;

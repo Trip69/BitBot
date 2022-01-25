@@ -54,7 +54,7 @@ class bit_db {
     public static $chars_rep = array ('',' And ',' And ','','');
     public static function remove_chars($text)
     {
-        return str_replace(MacdB::$chars_rem,MacdB::$chars_rep,$text);
+        return str_replace(self::$chars_rem,self::$chars_rep,$text);
     }
 
     protected static function get_one_result($sql)
